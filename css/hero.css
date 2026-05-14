@@ -2,6 +2,13 @@
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -33,6 +40,7 @@
   border-radius: 4px;
   border: none;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
